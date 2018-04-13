@@ -1,3 +1,4 @@
+// TODO: fix type errors
 const listCars = (cars) => {
   return cars.map((car) => {
     return { ...car };
