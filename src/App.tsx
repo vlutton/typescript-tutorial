@@ -1,10 +1,13 @@
 import * as React from 'react';
 import './App.css';
 
+import AutoTest from './test';
 const logo = require('./logo.svg');
 
 class App extends React.Component {
   render() {
+    // run our example code
+    AutoTest();
     return (
       <div className="App">
         <header className="App-header">
