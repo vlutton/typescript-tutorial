@@ -1,13 +1,11 @@
 import * as React from 'react';
 import './App.css';
+import Todos from './containers/Todos';
 
-import AutoTest from './test';
 const logo = require('./logo.svg');
 
 class App extends React.Component {
   render() {
-    // run our example code
-    AutoTest();
     return (
       <div className="App">
         <header className="App-header">
@@ -17,6 +15,7 @@ class App extends React.Component {
         <p className="App-intro">
           To get started, edit <code>src/App.tsx</code> and save to reload.
         </p>
+        <Todos />
       </div>
     );
   }
